@@ -3,5 +3,5 @@
 
 int main(void)
 {
-   system("mosquitto_pub -h broker.emqx.io -t pi2a/temps -m '????'");
+   system("mosquitto_pub -h broker.emqx.io -t pi2a/comandos -m '????'");
 }
